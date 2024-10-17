@@ -1,0 +1,44 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #1e90ff, #87cefa);
+    padding: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar.scrolled {
+    background: #333;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-list a:hover {
+    color: #ff6347;
+  }
+  
+  /* Content Sections for Scrolling */
+  .content section {
+    height: 100vh;
+    padding: 50px;
+  }
+  
